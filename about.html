@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- This is using an attribute to make the heading coloured-->
+    <header>
+        <h1 style="color: rgb(253, 26, 26); font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;"> About Me</h1>
+    </header>
+    <!--Navigation to different pages within site-->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="teaching.html">Teaching Practice</a></li>
+            <li><a href="worksample.html">Samples of Work</a></li>
+            <li><a href="projects.html">Project Showcase</a></li>
+            <li><a href="contact.html">Contact Me</a></li>
+        </ul>
+    </nav>
+   <main>
+        <!-- Intro to me, hyperlinked acu website-->
+        <h3> My Name is Gretel Salmon, I am currently a student at the <a href="https://www.acu.edu.au/" target="_blank">Australian Catholic University.</a></h3>
+        <!--Image of me, at an appropriate size-->
+        <img src="images/profile_picture.png" width="200px">
+        <!--Changing the font-->
+        <h3 style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;"> This is me!</h3>
+        <!--Line-->
+        <hr>
+        <h3>What do I teach?</h3>
+        <!--Teaching graphic, what I teach-->
+        <img src="images/what_i_teach_graphic.png" width="200px">
+        <hr>
+        <p> Hi, my name is Gretel and I currently in my 3rd year completing a double degree at ACU, called <strong>Bachelor of Secondary Education/Bachelor of Arts</strong> in design innovations and Technologies. I have completed 3 pracs, at <em>Georges River College Peakhurst, Holy Spirt College Lakemba and La Salle Catholic College Bankstown.</em>
+    Throughout my placement, I created lessons designed to engage all learners by incorporating a variety of teaching strategies—organising individual projects, designing games and learning centres, and delivering targeted small-group instruction. To assess student progress, I used both traditional assessments and alternative methods such as portfolios, rubrics, and performance-based tasks.
+    I also participated in parent teacher interviews. Marked student assessments, helped students work on their personal projects. This experience deepened my commitment to inclusive, responsive teaching that supports every students learning journey.
+        </p>
+ </main>
+<!--This is information is is a table format and style-->
+<section>
+    <h2>Prac Overview</h2>
+    <style>table{
+            width: 100%;                /* Table spans full width */
+            border-collapse: collapse;  /* Removes double borders */
+            margin-top: 10px;           /* Space above table */
+            font-family: Arial, sans-serif;     /* Table font */
+            }
+            th, td{
+            border: 1px solid #ccc;   /* Light grey cell borders */
+            padding: 10px 12px;         /* Space inside cells */
+            text-align: left;           /* Aligns text to the left */
+            }
+            thead{
+            background-color: #f0f0f0; /* Light grey header background */
+            }
+            th {
+            color: #333;              /* Dark grey header text */
+            font-weight: bold;          /* Bold header text */
+            }
+            tr:nth-child(even){
+            background-color: #fafafa;  /* Zebra stripe effect for even rows */
+            }
+</style>
+<!--Table info on previous pracs I have completed-->
+    <table>
+        <thead>
+            <tr>
+                <th>School</th>
+                <th>Subjects Taught</th>
+                <th>Year</th>
+                <th>Term</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Georges River College Peakhurst</td>
+                <td>Tech Mandatory</td>
+                <td>Year 7 & 8</td>
+                <td>Term 2 2024</td>
+            </tr>
+            <tr>
+                <td>Holy Spirit College Lakemba</td>
+                <td>Tech Mandatory, Stage 5 Food Tech</td>
+                <td>Year 7 & 8, 9 & 10</td>
+                <td>Term 4 2024</td>
+            </tr>
+            <tr>
+                <td>La Salle Catholic College Bankstown</td>
+                <td>Tech Mandatory, Stage 5 Food Tech</td>
+                <td>Year 7 & 8, 9 & 10</td>
+                <td>Term 2/3 2025</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+</body>
+</html>

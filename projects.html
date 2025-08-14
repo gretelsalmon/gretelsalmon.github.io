@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <!-- This is using an attribute to make the heading, and to make it coloured-->
+        <h1 style="color: rgb(253, 26, 26); font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Project Showcase</h1>
+    </header>
+    <!--Navigation to different pages within site-->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="teaching.html">Teaching Practice</a></li>
+            <li><a href="worksample.html">Samples of Work</a></li>
+            <li><a href="projects.html">Project Showcase</a></li>
+            <li><a href="contact.html">Contact Me</a></li>
+        </ul>
+    </nav>
+    <hr>
+
+
+<main>
+<h2>Projects of Mine</h2>
+    <!--Different Projects with images and desriptions-->
+    <section>
+        <style>
+            .flex-container{
+                display: flex;
+                flex-wrap: wrap;
+                gap: 20px;
+                justify-content: space-between;
+                margin-top: 20px;
+            }
+            .project-card {
+                flex: 1 1 350px;                /* Responsive card width */
+                background-color: #afafaf;    /* Light grey background */
+                border: 1px solid #bbabab;       /* Light border */
+                padding: 15px;                  /* Space inside card */
+                border-radius: 8px;             /* Rounded corners */
+                box-shadow: 1px 2px 4px rgba(0,0,0,0.1);      /* Soft shadow */
+                }
+            .project-card img {
+                width: 100%;          /* Image fills card width */
+                height: auto;         /* Maintains aspect ratio */
+                border-radius: 4px;   /* Slightly rounded image corners */
+                }
+            .project-card h3 {
+                margin-top: 10px;     /* Space above heading */
+                font-size: 1.1rem;    /* Slightly larger heading text */
+                color: #2171c1;     /* Dark grey-blue colour */
+            }
+
+        </style>
+        <div class="flex-container">
+            <div class="project-card">
+                <img src="images/stool-project.png" alt="Photo of Step Stool project, aimed for Stage 5 Wood Technolgy Students">
+                <h3>Stage 5 Wood Technology </h3>
+                <p>Step Stool Project aimed at Stage 5 students</p>
+            </div>
+            <div class="project-card">
+                <img src="images/lozener-project.png" alt="Photo of food moulding project, aimed for Stage 5 Food Technolgy Students">
+                <h3>Stage 5 Food Technology </h3>
+                <p>Food Moulding Project aimed at Stage 5 students</p>
+            </div>
+            <div class="project-card">
+                <img src="images/rocky-road-project.png" alt="Photo of food production project, aimed for Stage 6 Food Technolgy Students">
+                <h3>Stage 6 Food Technology </h3>
+                <p>Food Production Project aimed at Stage 6 students</p>
+            </div>
+            <div class="project-card">
+                <img src="images/tray-project.png" alt="Photo of serving tray project, aimed for Stage 5 Wood Technolgy Students">
+                <h3>Stage 5 Wood Technology </h3>
+                <p>Serving Tray Project aimed at Stage 5 students</p>
+            </div>
+        </div>
+    </section>
+</main>
+
+
+</body>
+</html>
