@@ -1,0 +1,32 @@
+body {
+background-color:cornsilk
+}
+
+
+h1{
+    color: red;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+img{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+
+
+.profile{
+    display:flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.profile-text{
+    flex: 1;
+}
+
+.profile-photo{
+    width: 40%;
+    border-radius: 8px;
+}

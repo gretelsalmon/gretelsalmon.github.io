@@ -3,64 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Gretel's Teaching Portfolio - Contact</title>
+    <link rel="stylesheet" href="starter.css">
 </head>
 <body>
      <!-- This is using an attribute to make the heading coloured-->
     <header>
-        <h1 style="color: rgb(253, 26, 26); font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;"> How to Contact Me</h1>
+        <h1> How to Contact Me</h1>
     </header>
      <!--Navigation to different pages within site-->
     <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="teaching.html">Teaching Practice</a></li>
-            <li><a href="worksample.html">Samples of Work</a></li>
-            <li><a href="projects.html">Project Showcase</a></li>
-            <li><a href="contact.html">Contact Me</a></li>
-        </ul>
+        <div class="container">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="teaching.html">Teaching Practice</a></li>
+                <li><a href="worksample.html">Samples of Work</a></li>
+                <li><a href="projects.html">Project Showcase</a></li>
+                <li><a class="active" href="contact.html">Contact Me</a></li>
+            </ul>
+        </div>
     </nav>
-    <!--Contact me table-->
-    <h2>Contact Me</h2>
-    <style>table{
-            width: 100%;                /* Table spans full width */
-            border-collapse: collapse;  /* Removes double borders */
-            margin-top: 10px;           /* Space above table */
-            font-family: Arial, sans-serif;     /* Table font */
-            }
-            th, td{
-            border: 1px solid #ccc;   /* Light grey cell borders */
-            padding: 10px 12px;         /* Space inside cells */
-            text-align: left;           /* Aligns text to the left */
-            }
-            thead{
-            background-color: #f0f0f0; /* Light grey header background */
-            }
-            th {
-            color: #333;              /* Dark grey header text */
-            font-weight: bold;          /* Bold header text */
-            }
-            tr:nth-child(even){
-            background-color: #fafafa;  /* Zebra stripe effect for even rows */
-            }
-    </style>
-    <table>
-        <thead>
-            <tr>
-                <th>Personal Email</th>
-                <th>University Email</th>
-                <th>Phone</th>
-            </tr>
-        </thead>
-        <body>
-            <tr>
-                <td>gretel.salmon04@gmail.com</td>
-                <td>gretel.salmon@myacu.edu.au</td>
-                <td>0423799772</td>
-            </tr>
-
-    </body>
-</table>
+    <main>
+        <!--Contact me table-->
+        <h2>Contact Me</h2>
+        <style>table{
+                width: 100%;                /* Table spans full width */
+                border-collapse: collapse;  /* Removes double borders */
+                margin-top: 10px;           /* Space above table */
+                font-family: Arial, sans-serif;     /* Table font */
+                }
+                th, td{
+                border: 1px solid #ccc;   /* Light grey cell borders */
+                padding: 10px 12px;         /* Space inside cells */
+                text-align: left;           /* Aligns text to the left */
+                }
+                thead{
+                background-color:cornsilk; /* Light grey header background */
+                }
+                th {
+                color: #333;              /* Dark grey header text */
+                font-weight: bold;          /* Bold header text */
+                }
+                tr:nth-child(even){
+                background-color:cornsilk;  /* Zebra stripe effect for even rows */
+                }
+            </style>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Personal Email</th>
+                        <th>University Email</th>
+                        <th>Phone</th>
+                    </tr>
+                </thead>
+                <body>
+                    <tr>
+                        <td>gretel.salmon04@gmail.com</td>
+                        <td>gretel.salmon@myacu.edu.au</td>
+                        <td>0423799772</td>
+                    </tr>
+        </main>  
+</body>
+            </table>
+        <footer>
+            <div class="container">
+                <p>&copy; 2025 Gretel Salmon. All Rights Reserved.</p>
+            </div>
+        </footer>
 </body>
 </html>
