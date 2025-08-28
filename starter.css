@@ -25,7 +25,7 @@ img {
 
 /* ---------- 2) Core Theme Tokens ----------- */
 :root {
-  --brand: #1c4c96;        /* primary colour */
+  --brand: #c5a4ce;        /* primary colour */
   --brand-2: #f39c12;      /* accent colour */
   --bg: #f4eee1;           /* page background */
   --head: #000000;         /* main header colour */
@@ -248,7 +248,7 @@ tr:nth-child(even) {
   margin-top: 20px;                 /* Space above container */
 }
 .project-card {
-  flex: 1 1 350px;                /* Responsive card width */
+  flex: 1 1 300px;                /* Responsive card width */
   background-color: #f9f9f9;    /* Light grey background */
   border: 1px solid #ddd;       /* Light border */
   padding: 15px;                  /* Space inside card */
@@ -274,7 +274,7 @@ tr:nth-child(even) {
   gap: var(--spacing);                                            /* Space between grid items */
 }
 .card {
-  background: #fff;             /* White background */
+  background: #ffffff;             /* White background */
   border-radius: var(--radius);   /* Rounded corners */
   box-shadow: var(--shadow);      /* Soft shadow */
   overflow: hidden;               /* Hides overflowing content */

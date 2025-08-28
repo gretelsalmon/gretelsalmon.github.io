@@ -21,55 +21,41 @@
                 <li><a href="worksample.html">Samples of Work</a></li>
                 <li><a href="projects.html">Project Showcase</a></li>
                 <li><a class="active" href="contact.html">Contact Me</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="resources.html">Resources</a></li>
             </ul>
         </div>
     </nav>
     <main>
-        <!--Contact me table-->
-        <h2>Contact Me</h2>
-        <style>table{
-                width: 100%;                /* Table spans full width */
-                border-collapse: collapse;  /* Removes double borders */
-                margin-top: 10px;           /* Space above table */
-                font-family: Arial, sans-serif;     /* Table font */
-                }
-                th, td{
-                border: 1px solid #ccc;   /* Light grey cell borders */
-                padding: 10px 12px;         /* Space inside cells */
-                text-align: left;           /* Aligns text to the left */
-                }
-                thead{
-                background-color:cornsilk; /* Light grey header background */
-                }
-                th {
-                color: #333;              /* Dark grey header text */
-                font-weight: bold;          /* Bold header text */
-                }
-                tr:nth-child(even){
-                background-color:cornsilk;  /* Zebra stripe effect for even rows */
-                }
-            </style>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Personal Email</th>
-                        <th>University Email</th>
-                        <th>Phone</th>
-                    </tr>
-                </thead>
-                <body>
-                    <tr>
-                        <td>gretel.salmon04@gmail.com</td>
-                        <td>gretel.salmon@myacu.edu.au</td>
-                        <td>0423799772</td>
-                    </tr>
-        </main>  
+        <!--This section is for a information form-->
+        <section class="section">
+            <h2>Get in contact with me</h2>
+            <form id="contact-form" action="#" method="post" autocomplete="on">
+                <fieldset>
+                    <legend>Your Details</legend>
+                    <!--Form text input name-->
+                    <label for="name">Full Name</label>
+                    <input id="name" name="name" type="text" placeholder="Jane Citizen" required minlength="6" autocomplete="name">
+                     <!--Form text input email-->
+                    <label for="email">Email Address</label>
+                    <input id="email" name="email" type="email" placeholder="name@example.com.au" required autocomplete="email">
+                     <!--Form text input messgae-->
+                    <label for="message">Messgae</label>
+                    <textarea id="message" name="message" type="message" placeholder="How can I help?" required minlength="10"></textarea>
+                    <input type="text" name="honey" tabindex="-1" aria-hidden="true" style="position:absolute;left: -9999px;">
+                    <!--button tage used for imput-->
+                    <button type="sumbit">Send</button>
+                </fieldset>
+            </form>
+        </section>
+    </main>  
 </body>
             </table>
-        <footer>
-            <div class="container">
-                <p>&copy; 2025 Gretel Salmon. All Rights Reserved.</p>
-            </div>
-        </footer>
+    <!--This is the footer section of my page-->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Gretel Salmon. All Rights Reserved.</p>
+        </div>
+    </footer>
 </body>
 </html>

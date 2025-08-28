@@ -21,6 +21,8 @@
                 <li><a href="worksample.html">Samples of Work</a></li>
                 <li><a class="active" href="projects.html">Project Showcase</a></li>
                 <li><a href="contact.html">Contact Me</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="resources.html">Resources</a></li>
             </ul>
         </div>
     </nav>
@@ -29,66 +31,58 @@
 
 <main>
 <h2>Projects of Mine</h2>
+
     <!--Different Projects with images and desriptions-->
     <section>
-        <style>
-            .flex-container{
-                display: flex;
-                flex-wrap: wrap;
-                gap: 20px;
-                justify-content: space-between;
-                margin-top: 20px;
-            }
-            .project-card {
-                flex: 1 1 350px;                /* Responsive card width */
-                background-color: #afafaf;    /* Light grey background */
-                border: 1px solid #bbabab;       /* Light border */
-                padding: 15px;                  /* Space inside card */
-                border-radius: 8px;             /* Rounded corners */
-                box-shadow: 1px 2px 4px rgba(0,0,0,0.1);      /* Soft shadow */
-                }
-            .project-card img {
-                width: 100%;          /* Image fills card width */
-                height: auto;         /* Maintains aspect ratio */
-                border-radius: 4px;   /* Slightly rounded image corners */
-                }
-            .project-card h3 {
-                margin-top: 10px;     /* Space above heading */
-                font-size: 1.1rem;    /* Slightly larger heading text */
-                color: #2171c1;     /* Dark grey-blue colour */
-            }
-
-        </style>
+        <!--Stool project card-->
         <div class="flex-container">
             <div class="project-card">
                 <img src="images/stool-project.png" alt="Photo of Step Stool project, aimed for Stage 5 Wood Technolgy Students">
                 <h3>Stage 5 Wood Technology </h3>
                 <p>Step Stool Project aimed at Stage 5 students</p>
             </div>
+            <!--Lozenger project card-->
             <div class="project-card">
                 <img src="images/lozener-project.png" alt="Photo of food moulding project, aimed for Stage 5 Food Technolgy Students">
                 <h3>Stage 5 Food Technology </h3>
                 <p>Food Moulding Project aimed at Stage 5 students</p>
             </div>
+            <!--Rocky Road project card-->
             <div class="project-card">
                 <img src="images/rocky-road-project.png" alt="Photo of food production project, aimed for Stage 6 Food Technolgy Students">
                 <h3>Stage 6 Food Technology </h3>
                 <p>Food Production Project aimed at Stage 6 students</p>
             </div>
+            <!--Tray project card-->
             <div class="project-card">
                 <img src="images/tray-project.png" alt="Photo of serving tray project, aimed for Stage 5 Wood Technolgy Students">
                 <h3>Stage 5 Wood Technology </h3>
                 <p>Serving Tray Project aimed at Stage 5 students</p>
             </div>
+            <!--Lamp project card-->
+            <div class="project-card">
+                <img src="images/lamp.jpeg" alt="Photo of timber lamp, aimed for product design">
+                <h3>Stage 5 Product Design </h3>
+                <p>Lamp Project aimed at Stage 5 students</p>
+            </div>
+            <!--Self refilling dog bowl project card-->
+            <div class="project-card">
+                <!--Adding a video-->
+                <video width="300" controls poster="images/dog-bowl-thumg.jpeg">
+                    <source src="media/selfrefilling-dog-bowl-smaller.mov" type="video/mp4">
+                    Your browser does not support this media type
+                </video>
+                <h3>Electromechanical Technologies</h3>
+                <p>Self Refilling Dog Bowl</p>
+            </div>
         </div>
     </section>
+    <!--This is the footer section of my page-->
      <footer>
         <div class="container">
             <p>&copy; 2025 Gretel Salmon. All Rights Reserved.</p>
         </div>
     </footer>
 </main>
-
-
 </body>
 </html>
