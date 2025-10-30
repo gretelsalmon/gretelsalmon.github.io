@@ -31,6 +31,7 @@
 								<li><a href="index.html">Home</a></li>
 								<li><a href="right-sidebar.html">Resume</a></li>
 								<li><a href="no-sidebar.html">Samples of Work</a></li>
+								<li><a href="projectshowcase.html">Project Showcase</a></li>
                                 <li><a href="resources.html">Resources</a></li>
                                 <li><a href="contactme.html">Contact Me</a></li>
 							</ul>
@@ -59,10 +60,16 @@
                     <textarea id="message" name="message" type="message" placeholder="How can I help?" required minlength="10"></textarea>
                     <input type="text" name="honey" tabindex="-1" aria-hidden="true" style="position:absolute;left: -9999px;">
                     <!--button tage used for imput-->
-                    <button type="sumbit">Send</button>
+                    <button type="button" id="verify-btn">Verify</button>
+
+                    <button type="submit" id="send-btn" disabled>Send</button>
+                    <!-- Errors will appear here -->
+                     <div id="errors" style="color:red; margin-top:10px;"></div>
                 </fieldset>
             </form>
         </section>
+        <script type="module" src="js/utilities.js"></script>
+
     </main>  
 					</div>
 
